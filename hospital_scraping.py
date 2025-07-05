@@ -58,7 +58,6 @@ def get_hospital_informations(url):
             hospital_name = h1_tag.find(string=True, recursive=False).strip()
             
             
-            # 結果を辞書として返す
             return {
                 'url': url,
                 'status': 'success',
